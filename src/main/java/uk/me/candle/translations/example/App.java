@@ -20,10 +20,10 @@ public class App {
 	private static void printForLocale(Locale locale) {
 		BundleService service = new BasicBundleService(new DefaultBundleConfiguration(), locale);
 		System.out.println("I know a bar called " + service.get(Foo.class).bar());
+		System.out.println(service.get(Foo.class).zit());
 		System.out.println(service.get(Foo.class).pony("Sparky"));
 		System.out.println(service.get(Foo.class).iHaveSomeOranges(5));
 		System.out.println(service.get(Foo.class).iHaveAFewArguments("obj", true, (byte)4, 'q', (short)6, 1, 9999, 9.5f, 4.4d));
-		
 	}
 }
 
