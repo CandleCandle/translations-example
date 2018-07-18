@@ -6,10 +6,6 @@ import static org.junit.Assert.*;
 import uk.me.candle.translations.conf.DefaultBundleConfiguration;
 import uk.me.candle.translations.maker.BundleMaker;
 
-/**
- *
- * @author Andrew Wheat
- */
 public class FooTest {
 
 	@Test
